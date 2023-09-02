@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(157, 233, 208);
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    position: relative;
+    height: 80%;
+    width: 80%;
+    background-color:#fff;
+    border-radius: 2vw;
+    overflow: hidden;
+}
+#top{
+    height: 12vh;
+    width: 100%;
+    background-color: rgb(58, 167, 130);
+    display: flex;
+    justify-content: space-around;
+}
+.elem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+}
+h2{
+    font-weight: 600;
+    padding: 0.5vw;
+}
+.box{
+    width: 70%;
+    height: 50%;
+    background-color:white;
+    border-radius: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+#bottom{
+    position: absolute;
+    display: flex;
+    top: 12vh;
+    flex-wrap: wrap;
+    align-content: space-around;
+    left: 0px;
+    width: 100%;
+    height:85%;
+    background-color: rgb(44, 224, 164);
+}
+.bubb{
+    height:10vh;
+    width: 4.5vw;
+    border-radius:50% ;
+    margin-left: 0.5vw;
+    margin-top:0.5vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    background-color: rgb(36, 184, 135);
+    cursor: pointer;
+}
+.bubb:hover{
+    background-color: aqua;
+}
